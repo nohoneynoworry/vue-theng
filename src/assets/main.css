@@ -1,0 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Moul&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@font-face {
+  font-family: 'Kantumruy Pro';
+  src: url('./fonts/KantumruyPro-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Moul';
+  src: url('./fonts/Moul-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+@config "../../tailwind.config.js";
