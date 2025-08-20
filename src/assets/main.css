@@ -24,4 +24,10 @@
 }
 
 @import "tailwindcss";
+/* Preline UI */
+@import "preline/variants.css";
+@source "../../node_modules/preline/dist/*.js";
+
+/* Plugins */
+@plugin "@tailwindcss/forms";
 @config "../../tailwind.config.js";
